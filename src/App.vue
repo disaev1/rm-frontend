@@ -6,6 +6,8 @@
     router-link(to="/about") About
     | {{ ' ' }}
     router-link(to="/routine-list") Список
+    br
+    router-link(to="/routines/create") Создать рутину
   router-view
 </template>
 <style lang="stylus">

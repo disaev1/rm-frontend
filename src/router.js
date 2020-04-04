@@ -22,9 +22,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
     },
     {
-      path: '/routine-list',
-      name: 'routine-list',
+      path: '/routines',
+      name: 'routines',
       component: () => import('./views/RoutineList.vue'),
+    },
+    {
+      path: '/routines/create',
+      name: 'routines-create',
+      component: () => import('./views/CreateRoutine.vue'),
     },
   ],
 });

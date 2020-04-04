@@ -1,4 +1,4 @@
-# routine-manager
+# rm-frontend
 
 ## Project setup
 ```
