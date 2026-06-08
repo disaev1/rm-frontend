@@ -1,5 +1,7 @@
 # rm-frontend
 
+**Removed some dependencies causing security issues. TODO before using: update to the latest Vue stack**
+
 ## Project setup
 ```
 npm install
